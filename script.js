@@ -221,6 +221,19 @@ marker28.on('click', function() {
 });
 
 
+
+var marker29 = L.marker([-9.72, -71.17]).addTo(map); // Example coordinates for São Paulo
+marker29.bindPopup('<a>Cashinahua</a>');
+marker29.on('click', function() {
+   updateInfoBox('documents/Cashinahua.html');
+});
+
+
+var marker29 = L.marker([16.18, -95.73]).addTo(map); // Example coordinates for São Paulo
+marker29.bindPopup('<a>Highland Oaxaca Chontal</a>');
+marker29.on('click', function() {
+   updateInfoBox('documents/Chontal.html');
+});
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
