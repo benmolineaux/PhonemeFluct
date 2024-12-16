@@ -213,6 +213,14 @@ marker26.bindPopup('<a>Kwaza</a>');
 marker26.on('click', function() {
    updateInfoBox('documents/Kwaza.html');
 });
+
+var marker28 = L.marker([-5.94, 155.15]).addTo(map); // Example coordinates for São Paulo
+marker28.bindPopup('<a>Rotokas</a>');
+marker28.on('click', function() {
+   updateInfoBox('documents/Rotokas.html');
+});
+
+
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
