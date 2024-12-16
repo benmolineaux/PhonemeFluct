@@ -62,7 +62,7 @@ marker4.on('click', function() {
     updateInfoBox('documents/Qawasqar.html');
 });
 
-var marker5 = L.marker([143.32, -4.66]).addTo(map); // Example coordinates for São Paulo
+var marker5 = L.marker([-4.66, 143.32]).addTo(map); // Example coordinates for São Paulo
 marker5.bindPopup('<a>Alamblak</a>');
 marker5.on('click', function() {
     updateInfoBox('documents/Alamblak.html');
