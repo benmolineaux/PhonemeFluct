@@ -253,6 +253,11 @@ marker33.on('click', function() {
    updateInfoBox('documents/Gadsup.html');
 });
 
+var marker34 = L.marker([43.28, -1.32]).addTo(map); // Example coordinates for São Paulo
+marker34._icon.classList.add('red-marker'); 
+marker34.bindPopup('<a>Basque</a>');
+marker34.on('click', function() {
+   updateInfoBox('documents/Basque.html');
 
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
