@@ -68,13 +68,13 @@ marker5.on('click', function() {
     updateInfoBox('documents/Alamblak.html');
 });
 
-var marker6 = L.marker([-75.31, -10.55]).addTo(map); // Example coordinates for São Paulo
+var marker6 = L.marker([-10.55, -75.31]).addTo(map); // Example coordinates for São Paulo
 marker6.bindPopup('<a>Amuesha</a>');
 marker6.on('click', function() {
     updateInfoBox('documents/Amuesha.html');
 });
 
-var marker7 = L.marker([-47.63, -6.11]).addTo(map); // Example coordinates for São Paulo
+var marker7 = L.marker([-6.11, -47.63]).addTo(map); // Example coordinates for São Paulo
 marker7.bindPopup('<a>Apinayé</a>');
 marker7.on('click', function() {
     updateInfoBox('documents/Apinayé.html');
