@@ -158,13 +158,12 @@ marker18.on('click', function() {
  //   updateInfoBox('documents/AAA.html');
 //});
 
-
-//var marker24 = L.marker([-33.81, -54.47]).addTo(map); // Example coordinates for São Paulo
-//marker24._icon.classList.add('red-marker'); 
-//marker24.bindPopup('<a>Güenoa</a>');
-//marker24.on('click', function() {
- //   updateInfoBox('documents/Guenoa.html');
-//});
+var marker24 = L.marker([-33.69, -57.78]).addTo(map); // Example coordinates for São Paulo
+marker24._icon.classList.add('red-marker'); 
+marker24.bindPopup('<a>Chaná</a>');
+marker24.on('click', function() {
+   updateInfoBox('documents/Chaná.html');
+});
 
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
