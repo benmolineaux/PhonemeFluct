@@ -247,6 +247,12 @@ marker32.on('click', function() {
    updateInfoBox('documents/Yagaria.html');
 });
 
+var marker33 = L.marker([-6.32, 146.00]).addTo(map); // Example coordinates for São Paulo
+marker33.bindPopup('<a>Gadsup</a>');
+marker33.on('click', function() {
+   updateInfoBox('documents/Gadsup.html');
+});
+
 
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
