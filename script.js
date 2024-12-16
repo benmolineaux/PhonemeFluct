@@ -153,7 +153,7 @@ marker18.on('click', function() {
 });
 
 
-var marker24 = L.marker([-54.47, -33.81]).addTo(map); // Example coordinates for São Paulo
+var marker24 = L.marker([-33.81, -54.47]).addTo(map); // Example coordinates for São Paulo
 marker24._icon.classList.add('red-marker'); 
 marker24.bindPopup('<a>Güenoa</a>');
 marker24.on('click', function() {
