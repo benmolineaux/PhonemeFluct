@@ -98,10 +98,10 @@ marker1.on('click', function() {
     updateInfoBox('documents/Iatmul.html');
 });
 
-var marker10 = L.marker([-33.69, -57.78]).addTo(map); // Example coordinates for São Paulo
-marker10.bindPopup('<a>Chaná</a>');
+var marker10 = L.marker([34.00, -101.00]).addTo(map); // Example coordinates for São Paulo
+marker10.bindPopup('<a>Comanche</a>');
 marker10.on('click', function() {
-    updateInfoBox('documents/Chaná.html');
+    updateInfoBox('documents/Comanche.html');
 });
 
 var marker11 = L.marker([-13.39, -68.04]).addTo(map); // Example coordinates for São Paulo
@@ -153,10 +153,23 @@ marker18.on('click', function() {
 });
 
 
-var marker19 = L.marker([0,0]).addTo(map); // Example coordinates for São Paulo
-marker18.bindPopup('<a>AAA</a>');
-marker18.on('click', function() {
-   updateInfoBox('documents/AAA.html');
+var marker19 = L.marker([-6.18, 145.14]).addTo(map); // Example coordinates for São Paulo
+marker19.bindPopup('<a>Chuave</a>');
+marker19.on('click', function() {
+   updateInfoBox('documents/Chuave.html');
+});
+
+var marker20 = L.marker([0,0]).addTo(map); // Example coordinates for São Paulo
+marker20.bindPopup('<a>Chuave</a>');
+marker20.on('click', function() {
+   updateInfoBox('documents/Chuave.html');
+});
+
+var marker21 = L.marker([-27.41, -58.97]).addTo(map); // Example coordinates for São Paulo
+marker21._icon.classList.add('red-marker'); 
+marker21.bindPopup('<a>Vilela</a>');
+marker21.on('click', function() {
+    updateInfoBox('documents/Vilela.html');
 });
 
 
@@ -179,6 +192,13 @@ marker25._icon.classList.add('red-marker');
 marker25.bindPopup('<a>Chipewyan</a>');
 marker25.on('click', function() {
    updateInfoBox('documents/Chipewyan.html');
+});
+
+var marker26 = L.marker([-11.67, -61.18]).addTo(map); // Example coordinates for São Paulo
+marker26._icon.classList.add('red-marker'); 
+marker26.bindPopup('<a>Kwaza</a>');
+marker26.on('click', function() {
+   updateInfoBox('documents/Kwaza.html');
 });
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 

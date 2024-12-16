@@ -17,3 +17,4 @@ W-N
 15.62, -2.38,Eboo-Nzikou,Bantu
 N-W
 56.80, -120.35, Dane-zaa (Beaver), Athabaskan
+-11.67, -61.18, Kwaza
