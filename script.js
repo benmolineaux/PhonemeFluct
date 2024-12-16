@@ -229,11 +229,25 @@ marker29.on('click', function() {
 });
 
 
-var marker29 = L.marker([16.18, -95.73]).addTo(map); // Example coordinates for São Paulo
-marker29.bindPopup('<a>Highland Oaxaca Chontal</a>');
-marker29.on('click', function() {
+var marker30 = L.marker([16.18, -95.73]).addTo(map); // Example coordinates for São Paulo
+marker30.bindPopup('<a>Highland Oaxaca Chontal</a>');
+marker30.on('click', function() {
    updateInfoBox('documents/Chontal.html');
 });
+
+var marker31 = L.marker([-7.72, 146.91]).addTo(map); // Example coordinates for São Paulo
+marker31.bindPopup('<a>Weri</a>');
+marker31.on('click', function() {
+   updateInfoBox('documents/Weri.html');
+});
+
+var marker32 = L.marker([-6.32, 145.39]).addTo(map); // Example coordinates for São Paulo
+marker32.bindPopup('<a>Yagaria</a>');
+marker32.on('click', function() {
+   updateInfoBox('documents/Yagaria.html');
+});
+
+
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
