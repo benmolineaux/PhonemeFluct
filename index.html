@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New World Philology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.awesome-markers/2.0.4/leaflet.awesome-markers.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.awesome-markers/2.0.4/leaflet.awesome-markers.js"></script>
+    <!-- Add to your HTML inside the <head> -->
+<style>
+    .leaflet-marker-icon.red-marker {
+        filter: hue-rotate(180deg); /* Adjust the value to change the color */
+    }
+</style>
+
+</head>
+<body>
+    <h1>Comparative Historical Corpus of the Southern Cone (CHiCo-SC)</h1>
+    <h3>Projected languages and texts</h3>
+    <div id="container">
+        <div id="map"></div>
+        <div id="info-box">
+            <p id="info-content">Click on a marker to see details here.</p><p id="info-content">Note that red markers represent languages that are widely spoken and better documented. As such, they are treated as reference points and we do not plan to create extensive corpus resources for them.</p>
+             <p id="info-content">The markers in orange belong to languages outside of scope for the current project, nevertheless, these are still within the broader Southern Cone area of interest and initial data will be gathered for triangulation with the focal languages.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
