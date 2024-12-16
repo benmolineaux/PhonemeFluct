@@ -165,11 +165,24 @@ marker20.on('click', function() {
    updateInfoBox('documents/Chuave.html');
 });
 
+var marker23 = L.marker([-22.52, 123.84]).addTo(map); // Example coordinates for São Paulo
+marker23.bindPopup('<a>Manyjilyjara</a>');
+marker23.on('click', function() {
+   updateInfoBox('documents/Manyjilyjara.html');
+});
+
 var marker21 = L.marker([-27.41, -58.97]).addTo(map); // Example coordinates for São Paulo
 marker21._icon.classList.add('red-marker'); 
 marker21.bindPopup('<a>Vilela</a>');
 marker21.on('click', function() {
     updateInfoBox('documents/Vilela.html');
+});
+
+var marker21 = L.marker([19.25, -101.63]).addTo(map); // Example coordinates for São Paulo
+marker27._icon.classList.add('red-marker'); 
+marker27.bindPopup('<a>Purepecha</a>');
+marker27.on('click', function() {
+    updateInfoBox('documents/Purepecha.html');
 });
 
 

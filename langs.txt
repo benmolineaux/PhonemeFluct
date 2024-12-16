@@ -18,3 +18,4 @@ W-N
 N-W
 56.80, -120.35, Dane-zaa (Beaver), Athabaskan
 -11.67, -61.18, Kwaza
+-22.52, 123.84, Manyjilyjara
