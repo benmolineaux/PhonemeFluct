@@ -1,0 +1,19 @@
+W-N
+142.4205053 -5.1171562,Alamblak,
+-75.31 -10.55,Amuesha,Arawak
+-47.63 -6.11,Apinayé,Macro Jê
+102.93 18.96,Tai Dam,Black Tai
+-106.66 45.53,Cheyenne,Algonquian
+143.32 -4.3,Iatmul,
+-74.71 -49.3,Qawasqar,Alakalufan
+-71.28 -38.74,Mapudungun,Araucanian
+-57.78 -33.69,Chaná,
+-68.04 -13.39,Tacana,
+151.07 -8.73,Kilivila,Malayo-Polinesian
+146.55 -28.96,Muruwari,Pama-Nyungan
+-99.29 21.38,Pame,Otomanguean
+-75.06, -1.96,Arabela,Zarapoan
+-71.17, -9.72,Kashinawa,Pano-tacnan
+15.62, -2.38,Eboo-Nzikou,Bantu
+N-W
+56.80, -120.35, Dane-zaa (Beaver), Athabaskan

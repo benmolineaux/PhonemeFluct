@@ -146,6 +146,12 @@ marker17.on('click', function() {
     updateInfoBox('documents/Kashinawa.html');
 });
 
+var marker18 = L.marker([56.80, -120.35]).addTo(map); // Example coordinates for São Paulo
+marker18.bindPopup('<a>Dane-zaa</a>');
+marker18.on('click', function() {
+    updateInfoBox('documents/Dane-zaa.html');
+});
+
 //var marker18 = L.marker([0,0]).addTo(map); // Example coordinates for São Paulo
 //marker18.bindPopup('<a>AAA</a>');
 //marker18.on('click', function() {
