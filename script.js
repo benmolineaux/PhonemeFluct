@@ -258,6 +258,19 @@ marker34.on('click', function() {
    updateInfoBox('documents/Basque.html');
 });
 
+var marker35 = L.marker([-28.90, 30.20]).addTo(map); // Example coordinates for São Paulo
+marker35._icon.classList.add('red-marker'); 
+marker35.bindPopup('<a>Zulu</a>');
+marker35.on('click', function() {
+   updateInfoBox('documents/Zulu.html');
+});
+
+var marker36 = L.marker([-16.42, 137.17]).addTo(map); // Example coordinates for São Paulo
+marker36.bindPopup('<a>Yanyuwa (Anyula)</a>');
+marker36.on('click', function() {
+   updateInfoBox('documents/Yanyuwa.html');
+});
+
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
