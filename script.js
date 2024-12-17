@@ -178,7 +178,7 @@ marker21.on('click', function() {
     updateInfoBox('documents/Vilela.html');
 });
 
-var marker21 = L.marker([19.25, -101.63]).addTo(map); // Example coordinates for São Paulo
+var marker27 = L.marker([19.25, -101.63]).addTo(map); // Example coordinates for São Paulo
 marker27._icon.classList.add('red-marker'); 
 marker27.bindPopup('<a>Purepecha</a>');
 marker27.on('click', function() {
@@ -196,7 +196,7 @@ var marker24 = L.marker([-33.69, -57.78]).addTo(map); // Example coordinates for
 marker24._icon.classList.add('red-marker'); 
 marker24.bindPopup('<a>Chaná</a>');
 marker24.on('click', function() {
-   updateInfoBox('documents/Chaná.html');
+   updateInfoBox('documents/Chana.html');
 });
 
 
@@ -221,13 +221,11 @@ marker28.on('click', function() {
 });
 
 
-
 var marker29 = L.marker([-9.72, -71.17]).addTo(map); // Example coordinates for São Paulo
 marker29.bindPopup('<a>Cashinahua</a>');
 marker29.on('click', function() {
    updateInfoBox('documents/Cashinahua.html');
 });
-
 
 var marker30 = L.marker([16.18, -95.73]).addTo(map); // Example coordinates for São Paulo
 marker30.bindPopup('<a>Highland Oaxaca Chontal</a>');
@@ -259,6 +257,7 @@ marker34.bindPopup('<a>Basque</a>');
 marker34.on('click', function() {
    updateInfoBox('documents/Basque.html');
 });
+
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
