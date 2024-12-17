@@ -258,7 +258,7 @@ marker34._icon.classList.add('red-marker');
 marker34.bindPopup('<a>Basque</a>');
 marker34.on('click', function() {
    updateInfoBox('documents/Basque.html');
-
+});
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
