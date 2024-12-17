@@ -319,6 +319,19 @@ marker44.on('click', function() {
    updateInfoBox('documents/Suena.html');
 });
 
+
+var marker45 = L.marker([4.53, 9.52]).addTo(map); // Example coordinates for São Paulo
+marker45._icon.classList.add('red-marker'); 
+marker45.bindPopup('<a>Bafaw-Balong</a>');
+marker45.on('click', function() {
+   updateInfoBox('documents/Bafaw-Balong.html');
+});
+
+var marker46 = L.marker([15.36, -90.58]).addTo(map); // Example coordinates for São Paulo
+marker46.bindPopup('<a>Poqomchi</a>');
+marker46.on('click', function() {
+   updateInfoBox('documents/Poqomchi.html');
+});
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
