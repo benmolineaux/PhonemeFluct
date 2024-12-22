@@ -397,13 +397,13 @@ var labelmarker37 = L.marker([0.58, -69.58], {
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker38 = L.marker([-16.42, 137.17]).addTo(map); marker38.bindPopup('<a>Yanyuwa (Anyula)</a>');
+var marker38 = L.marker([-27.54, 87.61]).addTo(map); marker38.bindPopup('<a>Thulung</a>');
 marker38.on('click', function() {
    updateInfoBox('documents/Yanyuwa.html');
 });
 
-var labelmarker38 = L.marker([-16.42, 137.17], { 
-    icon: createLabel('Yanyuwa (Anyula)'), 
+var labelmarker38 = L.marker([27.54, 87.61], { 
+    icon: createLabel('Thulung'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
