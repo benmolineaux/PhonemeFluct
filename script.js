@@ -32,7 +32,7 @@ function createLabel(text) {
         className: 'marker-label', // Add a custom class for styling
         html: `<span>${text}</span>`,
         iconSize: [100, 20], // Adjust size of the label container
-        iconAnchor: [40, 10] // Adjust position relative to the marker
+        iconAnchor: [10, 30] // Adjust position relative to the marker
     });
 }
 // Custom red marker icon
