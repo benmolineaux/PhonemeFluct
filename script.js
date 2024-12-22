@@ -22,7 +22,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var redDivIcon = L.divIcon({
     className: 'custom-div-icon',
     html: "<div style='background-color: red; width: 20px; height: 20px; border-radius: 50%; border: 2px solid white;'></div>",
-    iconSize: [1, 1],
+    iconSize: [20, 20],
     iconAnchor: [10, 10]
 });
 
@@ -32,7 +32,7 @@ function createLabel(text) {
         className: 'marker-label', // Add a custom class for styling
         html: `<span>${text}</span>`,
         iconSize: [100, 20], // Adjust size of the label container
-        iconAnchor: [10, 10] // Adjust position relative to the marker
+        iconAnchor: [40, 10] // Adjust position relative to the marker
     });
 }
 // Custom red marker icon
