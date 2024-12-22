@@ -64,6 +64,11 @@ marker2.on('click', function() {
     updateInfoBox('documents/Yahgan.html');
 });
 
+var label2 = L.marker([-54.933385, -67.591667], { 
+    icon: createLabel('Yahgan'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
+
 var marker3 = L.marker([-38.883333, -73.283333]).addTo(map); 
 marker3.bindPopup('<a>Mapudungun</a>');
 marker3.on('click', function() {
