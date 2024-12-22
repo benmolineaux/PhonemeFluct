@@ -332,6 +332,30 @@ marker46.bindPopup('<a>Poqomchi</a>');
 marker46.on('click', function() {
    updateInfoBox('documents/Poqomchi.html');
 });
+
+var marker47 = L.marker([-8.09, 146.91]).addTo(map); // Example coordinates for São Paulo
+marker47.bindPopup('<a>Kunimaipa</a>');
+marker47.on('click', function() {
+   updateInfoBox('documents/Kunimaipa.html');
+});
+
+var marker48 = L.marker([3.59, 115.66]).addTo(map); // Example coordinates for São Paulo
+marker48.bindPopup('<a>Sa\'Ban</a>');
+marker48.on('click', function() {
+   updateInfoBox('documents/Saban.html');
+});
+
+var marker49 = L.marker([10.43, -1.67]).addTo(map); // Example coordinates for São Paulo
+marker49.bindPopup('<a>Bissa</a>');
+marker49.on('click', function() {
+   updateInfoBox('documents/Bissa.html');
+});
+
+var marker50 = L.marker([26.91, 98.94]).addTo(map); // Example coordinates for São Paulo
+marker50.bindPopup('<a>Lisu</a>');
+marker50.on('click', function() {
+   updateInfoBox('documents/Lisu.html');
+});
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); // Example coordinates for São Paulo
 //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
