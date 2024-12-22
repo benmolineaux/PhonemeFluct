@@ -319,13 +319,14 @@ var labelmarker28 = L.marker([-5.94, 155.15], {
 }).addTo(map);
 
 
-var marker29 = L.marker([-9.72, -71.17]).addTo(map); marker29.bindPopup('<a>Cashinahua</a>');
+var marker29 = L.marker([13.38, 120.65]).addTo(map); 
+marker29.bindPopup('<a>Iraya</a>');
 marker29.on('click', function() {
-   updateInfoBox('documents/Cashinahua.html');
+   updateInfoBox('documents/Iraya.html');
 });
 
-var labelmarker29 = L.marker([-9.72, -71.17], { 
-    icon: createLabel('Cashinahua'), 
+var labelmarker29 = L.marker([13.38, 120.65], { 
+    icon: createLabel('Iraya'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
