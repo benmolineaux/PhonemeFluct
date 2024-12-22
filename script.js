@@ -173,10 +173,10 @@ marker19.on('click', function() {
    updateInfoBox('documents/Chuave.html');
 });
 
-var marker20 = L.marker([0,0]).addTo(map); // Example coordinates for São Paulo
-marker20.bindPopup('<a>Chuave</a>');
+var marker20 = L.marker([7.53, 99.08]).addTo(map); // Example coordinates for São Paulo
+marker20.bindPopup('<a>Urak Lawoi\'</a>');
 marker20.on('click', function() {
-   updateInfoBox('documents/Chuave.html');
+   updateInfoBox('documents/Urak.html');
 });
 
 var marker23 = L.marker([-22.52, 123.84]).addTo(map); // Example coordinates for São Paulo
