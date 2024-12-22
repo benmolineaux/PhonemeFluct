@@ -32,7 +32,7 @@ function createLabel(text) {
         className: 'marker-label', // Add a custom class for styling
         html: `<span>${text}</span>`,
         iconSize: [100, 20], // Adjust size of the label container
-        iconAnchor: [1, -1] // Adjust position relative to the marker
+        iconAnchor: [10, 10] // Adjust position relative to the marker
     });
 }
 // Custom red marker icon
@@ -53,11 +53,6 @@ function updateInfoBox(url) {
     xhr.send();
 }
 
-var labelMendoza = L.marker([-32.8895, -68.8458], { 
-    icon: createLabel('Mendoza'), 
-    interactive: false // Disable interactivity for the label
-}).addTo(map);
-
 var marker2 = L.marker([-54.933385, -67.591667]).addTo(map);
 marker2.bindPopup('<a>Yahgan</a>');
 marker2.on('click', function() {
@@ -65,7 +60,7 @@ marker2.on('click', function() {
 });
 
 var labelmarker2 = L.marker([-54.933385, -67.591667], { 
-    icon: createLabel('Yahgan'), 
+    icon: createLabel('49'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
