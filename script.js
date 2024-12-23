@@ -60,7 +60,7 @@ marker2.on('click', function() {
 });
 
 var labelmarker2 = L.marker([-54.933385, -67.591667], { 
-    icon: createLabel('49'), 
+    icon: createLabel('47'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -71,7 +71,7 @@ marker3.on('click', function() {
 });
 
 var labelmarker3 = L.marker([-38.883333, -73.283333], { 
-    icon: createLabel('Mapudungun'), 
+    icon: createLabel('27'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -81,7 +81,7 @@ marker4.on('click', function() {
 });
 
 var labelmarker4 = L.marker([-49.126, -74.413], { 
-    icon: createLabel('Qawasqar'), 
+    icon: createLabel('33'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -91,7 +91,7 @@ marker5.on('click', function() {
 });
 
 var labelmarker5 = L.marker([-4.66, 143.32], { 
-    icon: createLabel('Alamblak'), 
+    icon: createLabel('1'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -101,7 +101,7 @@ marker6.on('click', function() {
 });
 
 var labelmarker6 = L.marker([-10.55, -75.31], { 
-    icon: createLabel('Amuesha'), 
+    icon: createLabel('2'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -111,7 +111,7 @@ marker7.on('click', function() {
 });
 
 var labelmarker7 = L.marker([-6.11, -47.63], { 
-    icon: createLabel('Apinayé'), 
+    icon: createLabel('3'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -121,7 +121,7 @@ marker8.on('click', function() {
 });
 
 var labelmarker8 = L.marker([18.96, 102.93], { 
-    icon: createLabel('Tai Dam'), 
+    icon: createLabel('39'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -131,7 +131,7 @@ marker9.on('click', function() {
 });
 
 var labelmarker9 = L.marker([45.53, -106.66], { 
-    icon: createLabel('Cheyenne'), 
+    icon: createLabel('10'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -141,7 +141,7 @@ marker1.on('click', function() {
 });
 
 var labelmarker1 = L.marker([-4.3, 143.32], { 
-    icon: createLabel('Iatmul'), 
+    icon: createLabel('18'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -151,7 +151,7 @@ marker10.on('click', function() {
 });
 
 var labelmarker10 = L.marker([34.00, -101.00], { 
-    icon: createLabel('Comanche'), 
+    icon: createLabel('13'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -161,7 +161,7 @@ marker11.on('click', function() {
 });
 
 var labelmarker11 = L.marker([-13.39, -68.04], { 
-    icon: createLabel('Tacana'), 
+    icon: createLabel('38'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -171,7 +171,7 @@ marker12.on('click', function() {
 });
 
 var labelmarker12 = L.marker([-8.73, 151.07], { 
-    icon: createLabel('Kilivila'), 
+    icon: createLabel('21'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -181,17 +181,18 @@ marker13.on('click', function() {
 });
 
 var labelmarker13 = L.marker([-28.96, 146.55], { 
-    icon: createLabel('Muruwari'), 
+    icon: createLabel('29'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker14 = L.marker([21.38, -99.29]).addTo(map); marker14.bindPopup('<a>Pame</a>');
+var marker14 = L.marker([21.38, -99.29]).addTo(map); 
+marker14.bindPopup('<a>Pame</a>');
 marker14.on('click', function() {
     updateInfoBox('documents/Pame.html');
 });
 
 var labelmarker14 = L.marker([21.38, -99.29], { 
-    icon: createLabel('Pame'), 
+    icon: createLabel('30'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -201,7 +202,7 @@ marker15.on('click', function() {
 });
 
 var labelmarker15 = L.marker([-1.96, -75.06], { 
-    icon: createLabel('Arabela'), 
+    icon: createLabel('4'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -211,7 +212,7 @@ marker16.on('click', function() {
 });
 
 var labelmarker16 = L.marker([-2.38, 15.62], { 
-    icon: createLabel('Eboo-Nzikou'), 
+    icon: createLabel('15'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -221,7 +222,7 @@ marker17.on('click', function() {
 });
 
 var labelmarker17 = L.marker([-9.72, -71.17], { 
-    icon: createLabel('Kashinawa'), 
+    icon: createLabel('20'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -231,7 +232,7 @@ marker18.on('click', function() {
 });
 
 var labelmarker18 = L.marker([56.80, -120.35], { 
-    icon: createLabel('Dane-zaa'), 
+    icon: createLabel('14'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -242,7 +243,7 @@ marker19.on('click', function() {
 });
 
 var labelmarker19 = L.marker([-6.18, 145.14], { 
-    icon: createLabel('Chuave'), 
+    icon: createLabel('12'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -252,7 +253,7 @@ marker20.on('click', function() {
 });
 
 var labelmarker20 = L.marker([7.53, 99.08], { 
-    icon: createLabel('Urak Lawoi\''), 
+    icon: createLabel('42'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -262,7 +263,7 @@ marker23.on('click', function() {
 });
 
 var labelmarker23 = L.marker([-22.52, 123.84], { 
-    icon: createLabel('Manyjilyjara'), 
+    icon: createLabel('26'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -272,17 +273,21 @@ marker21.on('click', function() {
     updateInfoBox('documents/Vilela.html');
 });
 
+var labelmarker21 = L.marker([-27.41, -58.97], { 
+    icon: createLabel('43'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
+
 var marker27 = L.marker([19.25, -101.63]).addTo(map); marker27._icon.classList.add('red-marker'); 
 marker27.bindPopup('<a>Purepecha</a>');
 marker27.on('click', function() {
     updateInfoBox('documents/Purepecha.html');
 });
 
-
-//var marker18 = L.marker([0,0]).addTo(map); //marker18.bindPopup('<a>AAA</a>');
-//marker18.on('click', function() {
- //   updateInfoBox('documents/AAA.html');
-//});
+var labelmarker27 = L.marker([19.25, -101.63], { 
+    icon: createLabel('32'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
 
 var marker24 = L.marker([-33.69, -57.78]).addTo(map); marker24._icon.classList.add('red-marker'); 
 marker24.bindPopup('<a>Chaná</a>');
@@ -290,6 +295,10 @@ marker24.on('click', function() {
    updateInfoBox('documents/Chana.html');
 });
 
+var labelmarker24 = L.marker([-33.69, -57.78], { 
+    icon: createLabel('9'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
 
 var marker25 = L.marker([58.98, -104.44]).addTo(map); marker25._icon.classList.add('red-marker'); 
 marker25.bindPopup('<a>Chipewyan</a>');
@@ -297,11 +306,21 @@ marker25.on('click', function() {
    updateInfoBox('documents/Chipewyan.html');
 });
 
+var labelmarker25 = L.marker([58.98, -104.44], { 
+    icon: createLabel('11'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
+
 var marker26 = L.marker([-11.67, -61.18]).addTo(map); marker26._icon.classList.add('red-marker'); 
 marker26.bindPopup('<a>Kwaza</a>');
 marker26.on('click', function() {
    updateInfoBox('documents/Kwaza.html');
 });
+
+var labelmarker26 = L.marker([-11.67, -61.18], { 
+    icon: createLabel('24'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
 
 var marker28 = L.marker([-5.94, 155.15]).addTo(map); marker28.bindPopup('<a>Rotokas</a>');
 marker28.on('click', function() {
@@ -309,7 +328,7 @@ marker28.on('click', function() {
 });
 
 var labelmarker28 = L.marker([-5.94, 155.15], { 
-    icon: createLabel('Rotokas'), 
+    icon: createLabel('34'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -321,7 +340,7 @@ marker29.on('click', function() {
 });
 
 var labelmarker29 = L.marker([13.38, 120.65], { 
-    icon: createLabel('Iraya'), 
+    icon: createLabel('19'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -331,17 +350,18 @@ marker30.on('click', function() {
 });
 
 var labelmarker30 = L.marker([16.18, -95.73], { 
-    icon: createLabel('Highland Oaxaca Chontal'), 
+    icon: createLabel('17'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker31 = L.marker([-7.72, 146.91]).addTo(map); marker31.bindPopup('<a>Weri</a>');
+var marker31 = L.marker([-7.72, 146.91]).addTo(map); 
+marker31.bindPopup('<a>Weri</a>');
 marker31.on('click', function() {
    updateInfoBox('documents/Weri.html');
 });
 
 var labelmarker31 = L.marker([-7.72, 146.91], { 
-    icon: createLabel('Weri'), 
+    icon: createLabel('45'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -351,7 +371,7 @@ marker32.on('click', function() {
 });
 
 var labelmarker32 = L.marker([-6.32, 145.39], { 
-    icon: createLabel('Yagaria'), 
+    icon: createLabel('46'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -361,7 +381,7 @@ marker33.on('click', function() {
 });
 
 var labelmarker33 = L.marker([-6.32, 146.00], { 
-    icon: createLabel('Gadsup'), 
+    icon: createLabel('16'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -371,11 +391,21 @@ marker34.on('click', function() {
    updateInfoBox('documents/Basque.html');
 });
 
+var labelmarker34 = L.marker([43.28, -1.32], { 
+    icon: createLabel('6'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
+
 var marker35 = L.marker([-28.90, 30.20]).addTo(map); marker35._icon.classList.add('red-marker'); 
 marker35.bindPopup('<a>Zulu</a>');
 marker35.on('click', function() {
    updateInfoBox('documents/Zulu.html');
 });
+
+var labelmarker35 = L.marker([-28.90, 30.20], { 
+    icon: createLabel('50'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
 
 var marker36 = L.marker([-16.42, 137.17]).addTo(map); marker36.bindPopup('<a>Yanyuwa (Anyula)</a>');
 marker36.on('click', function() {
@@ -383,7 +413,7 @@ marker36.on('click', function() {
 });
 
 var labelmarker36 = L.marker([-16.42, 137.17], { 
-    icon: createLabel('Yanyuwa (Anyula)'), 
+    icon: createLabel('48'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -393,7 +423,7 @@ marker37.on('click', function() {
 });
 
 var labelmarker37 = L.marker([0.58, -69.58], { 
-    icon: createLabel('Tucano'), 
+    icon: createLabel('41'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -403,7 +433,7 @@ marker38.on('click', function() {
 });
 
 var labelmarker38 = L.marker([27.54, 87.61], { 
-    icon: createLabel('Thulung'), 
+    icon: createLabel('40'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -413,27 +443,29 @@ marker39.on('click', function() {
 });
 
 var labelmarker39 = L.marker([5.82, -68.98], { 
-    icon: createLabel('Sikuani (Guahibo)'), 
+    icon: createLabel('36'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker40 = L.marker([1.08, -69.57]).addTo(map); marker40.bindPopup('<a>Kotiria (Guanano)</a>');
+var marker40 = L.marker([1.08, -69.57]).addTo(map); 
+marker40.bindPopup('<a>Kotiria (Guanano)</a>');
 marker40.on('click', function() {
    updateInfoBox('documents/Kotiria.html');
 });
 
 var labelmarker40 = L.marker([1.08, -69.57], { 
-    icon: createLabel('Kotiria (Guanano)'), 
+    icon: createLabel('22'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker41 = L.marker([11.40, -72.20]).addTo(map); marker41.bindPopup('<a>Wayuu (Guajiro)</a>');
+var marker41 = L.marker([11.40, -72.20]).addTo(map); 
+marker41.bindPopup('<a>Wayuu (Guajiro)</a>');
 marker41.on('click', function() {
    updateInfoBox('documents/Wayuu.html');
 });
 
 var labelmarker41 = L.marker([11.40, -72.20], { 
-    icon: createLabel('Wayuu (Guajiro)'), 
+    icon: createLabel('44'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -443,17 +475,18 @@ marker42.on('click', function() {
 });
 
 var labelmarker42 = L.marker([-0.76, -71.00], { 
-    icon: createLabel('Yucuna'), 
+    icon: createLabel('49'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker43 = L.marker([1.15, -76.89]).addTo(map); marker43.bindPopup('<a>Camsá</a>');
+var marker43 = L.marker([1.15, -76.89]).addTo(map); 
+marker43.bindPopup('<a>Camsá</a>');
 marker43.on('click', function() {
    updateInfoBox('documents/Camsa.html');
 });
 
 var labelmarker43 = L.marker([1.15, -76.89], { 
-    icon: createLabel('Camsá'), 
+    icon: createLabel('8'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -463,7 +496,7 @@ marker44.on('click', function() {
 });
 
 var labelmarker44 = L.marker([-7.76, 147.53], { 
-    icon: createLabel('Suena'), 
+    icon: createLabel('37'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -474,13 +507,18 @@ marker45.on('click', function() {
    updateInfoBox('documents/Bafaw-Balong.html');
 });
 
+var labelmarker45 = L.marker([4.53, 9.52], { 
+    icon: createLabel('5'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
+
 var marker46 = L.marker([15.36, -90.58]).addTo(map); marker46.bindPopup('<a>Poqomchi</a>');
 marker46.on('click', function() {
    updateInfoBox('documents/Poqomchi.html');
 });
 
 var labelmarker46 = L.marker([15.36, -90.58], { 
-    icon: createLabel('Poqomchi'), 
+    icon: createLabel('31'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -490,7 +528,7 @@ marker47.on('click', function() {
 });
 
 var labelmarker47 = L.marker([-8.09, 146.91], { 
-    icon: createLabel('Kunimaipa'), 
+    icon: createLabel('23'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -500,17 +538,18 @@ marker48.on('click', function() {
 });
 
 var labelmarker48 = L.marker([3.59, 115.66], { 
-    icon: createLabel('Sa\'Ban'), 
+    icon: createLabel('35'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker49 = L.marker([10.43, -1.67]).addTo(map); marker49.bindPopup('<a>Bissa</a>');
+var marker49 = L.marker([10.43, -1.67]).addTo(map); 
+marker49.bindPopup('<a>Bissa</a>');
 marker49.on('click', function() {
    updateInfoBox('documents/Bissa.html');
 });
 
 var labelmarker49 = L.marker([10.43, -1.67], { 
-    icon: createLabel('Bissa'), 
+    icon: createLabel('7'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -520,9 +559,11 @@ marker50.on('click', function() {
 });
 
 var labelmarker50 = L.marker([26.91, 98.94], { 
-    icon: createLabel('Lisu'), 
+    icon: createLabel('25'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
+
+
 //var marker25 = L.marker([-28.10, -60.41]).addTo(map); //marker25._icon.classList.add('red-marker'); 
 //marker25.bindPopup('<a>Mocoví</a>');
 //marker25.on('click', function() {
