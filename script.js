@@ -30,7 +30,7 @@ var redDivIcon = L.divIcon({
 function createLabel(text) {
     return L.divIcon({
         className: 'marker-label', // Add a custom class for styling
-        html: `<span>${text}</span>`,
+        html: `<span><b>${text}</b></span>`,
         iconSize: [100, 20], // Adjust size of the label container
         iconAnchor: [5, 40] // Adjust position relative to the marker
     });
