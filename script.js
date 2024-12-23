@@ -31,7 +31,7 @@ function createLabel(text) {
     return L.divIcon({
         className: 'marker-label', // Add a custom class for styling
         html: `<span><strong>${text}</strong></span>`,
-        iconSize: [100, 20], // Adjust size of the label container
+        iconSize: [200, 40], // Adjust size of the label container
         iconAnchor: [5, 40] // Adjust position relative to the marker
     });
 }
