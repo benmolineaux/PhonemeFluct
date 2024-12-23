@@ -427,9 +427,9 @@ var labelmarker37 = L.marker([0.58, -69.58], {
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker38 = L.marker([-27.54, 87.61]).addTo(map); marker38.bindPopup('<a>Thulung</a>');
+var marker38 = L.marker([27.54, 87.61]).addTo(map); marker38.bindPopup('<a>Thulung</a>');
 marker38.on('click', function() {
-   updateInfoBox('documents/Yanyuwa.html');
+   updateInfoBox('documents/Thulung.html');
 });
 
 var labelmarker38 = L.marker([27.54, 87.61], { 
