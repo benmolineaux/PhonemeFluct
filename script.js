@@ -181,7 +181,7 @@ marker13.on('click', function() {
 });
 
 var labelmarker13 = L.marker([-28.96, 146.55], { 
-    icon: createLabel('29'), 
+    icon: createLabel('28'), 
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
@@ -553,7 +553,8 @@ var labelmarker49 = L.marker([10.43, -1.67], {
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker50 = L.marker([26.91, 98.94]).addTo(map); marker50.bindPopup('<a>Lisu</a>');
+var marker50 = L.marker([26.91, 98.94]).addTo(map); 
+marker50.bindPopup('<a>Lisu</a>');
 marker50.on('click', function() {
    updateInfoBox('documents/Lisu.html');
 });
@@ -564,8 +565,13 @@ var labelmarker50 = L.marker([26.91, 98.94], {
 }).addTo(map);
 
 
-//var marker25 = L.marker([-28.10, -60.41]).addTo(map); //marker25._icon.classList.add('red-marker'); 
-//marker25.bindPopup('<a>Mocoví</a>');
-//marker25.on('click', function() {
- //   updateInfoBox('documents/Mocovi.html');
-//});
+var marker22 = L.marker([27.67, 85.33]).addTo(map);
+marker22.bindPopup('<a>Newari</a>');
+marker22.on('click', function() {
+    updateInfoBox('documents/Newari.html');
+});
+
+var labelmarker22 = L.marker([27.67, 85.33], { 
+    icon: createLabel('29'), 
+    interactive: false // Disable interactivity for the label
+}).addTo(map);
