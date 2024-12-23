@@ -21,7 +21,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Create a custom red marker using DivIcon
 var redDivIcon = L.divIcon({
     className: 'custom-div-icon',
-    html: "<div style='background-color: red; width: 10px; height: 10px; border-radius: 50%; border: 2px solid white;'></div>",
+    html: "<div style='background-color: red; width: 20px; height: 20px; border-radius: 50%; border: 2px solid white;'></div>",
     iconSize: [20, 20],
     iconAnchor: [10, 10]
 });
