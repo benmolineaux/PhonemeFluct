@@ -107,7 +107,7 @@ var labelmarker6 = L.marker([-10.55, -75.31], {
 
 var marker7 = L.marker([-6.11, -47.63]).addTo(map); marker7.bindPopup('<a>Apinayé</a>');
 marker7.on('click', function() {
-    updateInfoBox('documents/Apinayé.html');
+    updateInfoBox('documents/Apinaye.html');
 });
 
 var labelmarker7 = L.marker([-6.11, -47.63], { 
