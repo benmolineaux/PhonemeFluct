@@ -75,7 +75,7 @@ var labelmarker3 = L.marker([-38.883333, -73.283333], {
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker4 = L.marker([-49.126, -74.413]).addTo(map); marker4.bindPopup('<a>Qawasqar</a>');
+var marker4 = L.marker([-49.126, -74.413]).addTo(map); marker4.bindPopup('<a>Kawésqar</a>');
 marker4.on('click', function() {
     updateInfoBox('documents/Qawasqar.html');
 });
