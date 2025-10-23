@@ -512,7 +512,7 @@ var labelmarker45 = L.marker([4.53, 9.52], {
     interactive: false // Disable interactivity for the label
 }).addTo(map);
 
-var marker46 = L.marker([15.36, -90.58]).addTo(map); marker46.bindPopup('<a>Poqomchi'</a>');
+var marker46 = L.marker([15.36, -90.58]).addTo(map); marker46.bindPopup('<a>Poqomchi\'</a>');
 marker46.on('click', function() {
    updateInfoBox('documents/Poqomchi.html');
 });
